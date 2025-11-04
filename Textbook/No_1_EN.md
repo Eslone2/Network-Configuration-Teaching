@@ -90,3 +90,37 @@ Now, let's practice separating the Network Part and the Host Part.
    **Subnet Mask (Decimal):** `255.0.0.0`
    * **Network Part:** `192`
    * **Host Part:** `168.163.1`
+
+---
+
+### 📡 Roles of Routers and L2 Switches in a Network
+
+#### **L2 Switch (Layer 2 Switch) Mechanism**
+
+An L2 switch primarily connects devices communicating **within the same network**.
+
+* **Role:** Delivers data to devices belonging to the **same network**.
+* **Decision Criteria:** It examines the **MAC address** (Media Access Control Address) of the destination device to determine which port to send the data to.
+    > The MAC address is a **physical address assigned at the factory** to a device's network adapter (NIC). Unlike the IP address, it is a globally unique number.
+* **Other Names:** They are sometimes referred to as **bridges** or **intelligent hubs**.
+
+**【Key Point】**
+L2 switches process communication based on the **MAC address**, not the IP address.
+
+#### **Router (Layer 3 Switch/Router) Mechanism**
+
+A router primarily connects devices communicating **between different networks**.
+
+* **Role:** Relays data **between different networks** (e.g., your home network and the internet) and directs it to the optimal path.
+* **Decision Criteria:** It examines the **IP address** of the destination device and decides where to send the data based on its routing table.
+* **Other Functions:** The routers commonly used in homes and offices also have a function called **NAT (Network Address Translation)**, which performs the conversion between private and global IP addresses.
+
+**【Key Point】**
+Routers process communication between different networks based on the **IP address**.
+
+| Device Type | Layer Processed | Address for Decision | Primary Role |
+| :---: | :---: | :---: | :--- |
+| **L2 Switch** | Layer 2 (Data Link Layer) | MAC Address | Communication **within the same network** |
+| **Router** | Layer 3 (Network Layer) | IP Address | Communication **between different networks** (Routing) |
+
+---
