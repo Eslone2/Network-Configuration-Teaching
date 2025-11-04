@@ -124,3 +124,7 @@ Routers process communication between different networks based on the **IP addre
 | **Router** | Layer 3 (Network Layer) | IP Address | Communication **between different networks** (Routing) |
 
 ---
+
+Thank you for attending!
+
+Thank you for staying until the end of the seminar! Have a nice day!
