@@ -7,7 +7,7 @@
 ### 🎯 The Main Topics for This Time
 
 * **Understanding the mechanism of IP addresses, subnet masks, and network addresses.**
-* What roles do routers and L2 switches play within a network system? (This may be covered in a future session.)
+* What roles do routers and L2 switches play within a network system?
 
 ---
 
